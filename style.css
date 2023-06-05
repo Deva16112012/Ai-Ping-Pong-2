@@ -1,0 +1,50 @@
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading button{
+    float: right;
+    border: 1px solid whitesmoke;
+}
+.heading h3{
+    display: inline;
+}
+#c{
+    width: 100%;
+}
+.im{
+    display: inline-block;
+    width: 45%;
+}
+.modal-dialog{
+    width: 90%;
+}
+video{
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
+h4{
+    margin: 0px;
+    line-height: 2;
+    background-color: rgb(244, 244, 244);
+}
+#start,#status{
+    font-size: 24px;
+}
+canvas{
+    border: 4px dotted  rgb(0, 251, 255);
+    border-radius: 100px;
+    margin: 80px;
+    animation-name: a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    from{
+        box-shadow: 4px 4px 4px rgb(138, 54, 255);
+    }
+    to{
+        box-shadow: 40px 40px 40px rgb(0, 64, 255);
+    }
+}
